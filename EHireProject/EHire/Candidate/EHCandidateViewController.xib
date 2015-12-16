@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9060"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="EHCandidateViewController" customModule="EHire" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <box borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="Rpt-yK-yFd">
+                    <rect key="frame" x="-3" y="219" width="486" height="53"/>
+                    <view key="contentView" id="RX1-XG-Nle">
+                        <rect key="frame" x="1" y="1" width="484" height="37"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="noo-jB-vTn">
+                                <rect key="frame" x="4" y="0.0" width="476" height="37"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Cocoa inetrview on 15-12-2015" id="goD-VO-cdM">
+                                    <font key="font" metaFont="system" size="14"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="V4e-jD-cNC"/>
+                    </constraints>
+                    <animations/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" red="1" green="0.14762835890000001" blue="0.26377849139999998" alpha="1" colorSpace="calibratedRGB"/>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Rpt-yK-yFd" firstAttribute="width" secondItem="Hz6-mo-xeY" secondAttribute="width" id="IkU-gf-Mu8"/>
+                <constraint firstItem="Rpt-yK-yFd" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="MfT-gp-SqW"/>
+                <constraint firstItem="Rpt-yK-yFd" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="b8H-ZU-LMI"/>
+            </constraints>
+            <animations/>
+        </customView>
+    </objects>
+</document>

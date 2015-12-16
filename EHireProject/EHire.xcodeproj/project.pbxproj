@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F227B501C193B9C00BC0DF7 /* EHTechnologyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F227B4F1C193B9C00BC0DF7 /* EHTechnologyModel.swift */; };
+		4F227B521C193BAE00BC0DF7 /* EHDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F227B511C193BAE00BC0DF7 /* EHDateModel.swift */; };
+		4F31E43E1BFDBE6600907FB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F31E43D1BFDBE6600907FB7 /* AppDelegate.swift */; };
+		4F31E4411BFDBE6600907FB7 /* EHire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F31E43F1BFDBE6600907FB7 /* EHire.xcdatamodeld */; };
+		4F31E4431BFDBE6600907FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F31E4421BFDBE6600907FB7 /* Assets.xcassets */; };
+		4F31E4461BFDBE6600907FB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F31E4441BFDBE6600907FB7 /* MainMenu.xib */; };
+		4F31E4511BFDBE6700907FB7 /* EHireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F31E4501BFDBE6700907FB7 /* EHireTests.swift */; };
+		4F31E45C1BFDBE6700907FB7 /* EHireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F31E45B1BFDBE6700907FB7 /* EHireUITests.swift */; };
+		4F6946FD1C159932009D155A /* EHCustomAdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6946FB1C159932009D155A /* EHCustomAdditionViewController.swift */; };
+		4F6946FE1C159932009D155A /* EHCustomAdditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F6946FC1C159932009D155A /* EHCustomAdditionViewController.xib */; };
+		9C35A6381C0C09410069BFE0 /* EHCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35A6371C0C09410069BFE0 /* EHCoreDataHelper.swift */; };
+		9C4B1A3E1C1859830065503B /* Welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4B1A3D1C1859830065503B /* Welcome.png */; };
+		9CB9E23C1C1999430032B5BF /* EHConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB9E23B1C1999430032B5BF /* EHConstants.swift */; };
+		9CD0C45E1C1FDD490049929D /* EHCandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD0C45C1C1FDD490049929D /* EHCandidateViewController.swift */; };
+		9CD0C45F1C1FDD490049929D /* EHCandidateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD0C45D1C1FDD490049929D /* EHCandidateViewController.xib */; };
+		9CDEE5C31C0824E900E57368 /* EHTechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDEE5C11C0824E900E57368 /* EHTechnologyViewController.swift */; };
+		9CDEE5C41C0824E900E57368 /* EHTechnologyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDEE5C21C0824E900E57368 /* EHTechnologyViewController.xib */; };
+		9CDEE5D91C08266200E57368 /* Date+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDEE5D51C08266200E57368 /* Date+CoreDataProperties.swift */; };
+		9CDEE5DA1C08266200E57368 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDEE5D61C08266200E57368 /* Date.swift */; };
+		9CDEE5DB1C08266200E57368 /* Technology+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDEE5D71C08266200E57368 /* Technology+CoreDataProperties.swift */; };
+		9CDEE5DC1C08266200E57368 /* Technology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDEE5D81C08266200E57368 /* Technology.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F31E44D1BFDBE6700907FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F31E4321BFDBE6600907FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F31E4391BFDBE6600907FB7;
+			remoteInfo = EHire;
+		};
+		4F31E4581BFDBE6700907FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F31E4321BFDBE6600907FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F31E4391BFDBE6600907FB7;
+			remoteInfo = EHire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F227B4F1C193B9C00BC0DF7 /* EHTechnologyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHTechnologyModel.swift; sourceTree = "<group>"; };
+		4F227B511C193BAE00BC0DF7 /* EHDateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHDateModel.swift; sourceTree = "<group>"; };
+		4F31E43A1BFDBE6600907FB7 /* EHire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EHire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F31E43D1BFDBE6600907FB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F31E4401BFDBE6600907FB7 /* EHire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EHire.xcdatamodel; sourceTree = "<group>"; };
+		4F31E4421BFDBE6600907FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F31E4451BFDBE6600907FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F31E4471BFDBE6600907FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F31E44C1BFDBE6700907FB7 /* EHireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EHireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F31E4501BFDBE6700907FB7 /* EHireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EHireTests.swift; sourceTree = "<group>"; };
+		4F31E4521BFDBE6700907FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F31E4571BFDBE6700907FB7 /* EHireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EHireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F31E45B1BFDBE6700907FB7 /* EHireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EHireUITests.swift; sourceTree = "<group>"; };
+		4F31E45D1BFDBE6700907FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6946FB1C159932009D155A /* EHCustomAdditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EHCustomAdditionViewController.swift; path = ../EHCustomAdditionViewController.swift; sourceTree = "<group>"; };
+		4F6946FC1C159932009D155A /* EHCustomAdditionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EHCustomAdditionViewController.xib; path = ../EHCustomAdditionViewController.xib; sourceTree = "<group>"; };
+		9C35A6371C0C09410069BFE0 /* EHCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHCoreDataHelper.swift; sourceTree = "<group>"; };
+		9C4B1A3D1C1859830065503B /* Welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Welcome.png; sourceTree = "<group>"; };
+		9CB9E23B1C1999430032B5BF /* EHConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHConstants.swift; sourceTree = "<group>"; };
+		9CD0C45C1C1FDD490049929D /* EHCandidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHCandidateViewController.swift; sourceTree = "<group>"; };
+		9CD0C45D1C1FDD490049929D /* EHCandidateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHCandidateViewController.xib; sourceTree = "<group>"; };
+		9CDEE5C11C0824E900E57368 /* EHTechnologyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EHTechnologyViewController.swift; path = ../EHTechnologyViewController.swift; sourceTree = "<group>"; };
+		9CDEE5C21C0824E900E57368 /* EHTechnologyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EHTechnologyViewController.xib; path = ../EHTechnologyViewController.xib; sourceTree = "<group>"; };
+		9CDEE5D51C08266200E57368 /* Date+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9CDEE5D61C08266200E57368 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9CDEE5D71C08266200E57368 /* Technology+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Technology+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9CDEE5D81C08266200E57368 /* Technology.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Technology.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F31E4371BFDBE6600907FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31E4491BFDBE6700907FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31E4541BFDBE6700907FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F29D2401C19812100AE771B /* Technology */ = {
+			isa = PBXGroup;
+			children = (
+				9CDEE5C11C0824E900E57368 /* EHTechnologyViewController.swift */,
+				9CDEE5C21C0824E900E57368 /* EHTechnologyViewController.xib */,
+				4F6946FB1C159932009D155A /* EHCustomAdditionViewController.swift */,
+				4F6946FC1C159932009D155A /* EHCustomAdditionViewController.xib */,
+			);
+			name = Technology;
+			sourceTree = "<group>";
+		};
+		4F227B4E1C193B6100BC0DF7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4F31E4311BFDBE6600907FB7 = {
+			isa = PBXGroup;
+			children = (
+				4F31E43C1BFDBE6600907FB7 /* EHire */,
+				4F31E44F1BFDBE6700907FB7 /* EHireTests */,
+				4F31E45A1BFDBE6700907FB7 /* EHireUITests */,
+				4F31E43B1BFDBE6600907FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F31E43B1BFDBE6600907FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F31E43A1BFDBE6600907FB7 /* EHire.app */,
+				4F31E44C1BFDBE6700907FB7 /* EHireTests.xctest */,
+				4F31E4571BFDBE6700907FB7 /* EHireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F31E43C1BFDBE6600907FB7 /* EHire */ = {
+			isa = PBXGroup;
+			children = (
+				4F31E43D1BFDBE6600907FB7 /* AppDelegate.swift */,
+				9CB9E23A1C1999230032B5BF /* Contants */,
+				0F29D2401C19812100AE771B /* Technology */,
+				9CD0C45B1C1FDD140049929D /* Candidate */,
+				9C675B761C06E338009C3F38 /* Model */,
+				9C675B771C06E363009C3F38 /* Entity */,
+				4F227B4E1C193B6100BC0DF7 /* Services */,
+				9CDEE5DD1C082A8700E57368 /* Utils */,
+				9C675B881C071D2E009C3F38 /* HelperClass */,
+				9CFAB7491C181D0400DA33C3 /* Image */,
+				4F31E4421BFDBE6600907FB7 /* Assets.xcassets */,
+				4F31E4441BFDBE6600907FB7 /* MainMenu.xib */,
+				4F31E4471BFDBE6600907FB7 /* Info.plist */,
+				4F31E43F1BFDBE6600907FB7 /* EHire.xcdatamodeld */,
+			);
+			path = EHire;
+			sourceTree = "<group>";
+		};
+		4F31E44F1BFDBE6700907FB7 /* EHireTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F31E4501BFDBE6700907FB7 /* EHireTests.swift */,
+				4F31E4521BFDBE6700907FB7 /* Info.plist */,
+			);
+			path = EHireTests;
+			sourceTree = "<group>";
+		};
+		4F31E45A1BFDBE6700907FB7 /* EHireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F31E45B1BFDBE6700907FB7 /* EHireUITests.swift */,
+				4F31E45D1BFDBE6700907FB7 /* Info.plist */,
+			);
+			path = EHireUITests;
+			sourceTree = "<group>";
+		};
+		9C675B761C06E338009C3F38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F227B4F1C193B9C00BC0DF7 /* EHTechnologyModel.swift */,
+				4F227B511C193BAE00BC0DF7 /* EHDateModel.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9C675B771C06E363009C3F38 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9CDEE5D51C08266200E57368 /* Date+CoreDataProperties.swift */,
+				9CDEE5D61C08266200E57368 /* Date.swift */,
+				9CDEE5D71C08266200E57368 /* Technology+CoreDataProperties.swift */,
+				9CDEE5D81C08266200E57368 /* Technology.swift */,
+			);
+			name = Entity;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9C675B881C071D2E009C3F38 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				9C35A6371C0C09410069BFE0 /* EHCoreDataHelper.swift */,
+			);
+			name = HelperClass;
+			sourceTree = "<group>";
+		};
+		9CB9E23A1C1999230032B5BF /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				9CB9E23B1C1999430032B5BF /* EHConstants.swift */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		9CD0C45B1C1FDD140049929D /* Candidate */ = {
+			isa = PBXGroup;
+			children = (
+				9CD0C45C1C1FDD490049929D /* EHCandidateViewController.swift */,
+				9CD0C45D1C1FDD490049929D /* EHCandidateViewController.xib */,
+			);
+			path = Candidate;
+			sourceTree = "<group>";
+		};
+		9CDEE5DD1C082A8700E57368 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9CFAB7491C181D0400DA33C3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B1A3D1C1859830065503B /* Welcome.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F31E4391BFDBE6600907FB7 /* EHire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F31E4601BFDBE6700907FB7 /* Build configuration list for PBXNativeTarget "EHire" */;
+			buildPhases = (
+				4F31E4361BFDBE6600907FB7 /* Sources */,
+				4F31E4371BFDBE6600907FB7 /* Frameworks */,
+				4F31E4381BFDBE6600907FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EHire;
+			productName = EHire;
+			productReference = 4F31E43A1BFDBE6600907FB7 /* EHire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F31E44B1BFDBE6700907FB7 /* EHireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F31E4631BFDBE6700907FB7 /* Build configuration list for PBXNativeTarget "EHireTests" */;
+			buildPhases = (
+				4F31E4481BFDBE6700907FB7 /* Sources */,
+				4F31E4491BFDBE6700907FB7 /* Frameworks */,
+				4F31E44A1BFDBE6700907FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F31E44E1BFDBE6700907FB7 /* PBXTargetDependency */,
+			);
+			name = EHireTests;
+			productName = EHireTests;
+			productReference = 4F31E44C1BFDBE6700907FB7 /* EHireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F31E4561BFDBE6700907FB7 /* EHireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F31E4661BFDBE6700907FB7 /* Build configuration list for PBXNativeTarget "EHireUITests" */;
+			buildPhases = (
+				4F31E4531BFDBE6700907FB7 /* Sources */,
+				4F31E4541BFDBE6700907FB7 /* Frameworks */,
+				4F31E4551BFDBE6700907FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F31E4591BFDBE6700907FB7 /* PBXTargetDependency */,
+			);
+			name = EHireUITests;
+			productName = EHireUITests;
+			productReference = 4F31E4571BFDBE6700907FB7 /* EHireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F31E4321BFDBE6600907FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Pavithra G. Jayanna";
+				TargetAttributes = {
+					4F31E4391BFDBE6600907FB7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4F31E44B1BFDBE6700907FB7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4F31E4391BFDBE6600907FB7;
+					};
+					4F31E4561BFDBE6700907FB7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4F31E4391BFDBE6600907FB7;
+					};
+				};
+			};
+			buildConfigurationList = 4F31E4351BFDBE6600907FB7 /* Build configuration list for PBXProject "EHire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F31E4311BFDBE6600907FB7;
+			productRefGroup = 4F31E43B1BFDBE6600907FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F31E4391BFDBE6600907FB7 /* EHire */,
+				4F31E44B1BFDBE6700907FB7 /* EHireTests */,
+				4F31E4561BFDBE6700907FB7 /* EHireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F31E4381BFDBE6600907FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F31E4431BFDBE6600907FB7 /* Assets.xcassets in Resources */,
+				9CD0C45F1C1FDD490049929D /* EHCandidateViewController.xib in Resources */,
+				4F31E4461BFDBE6600907FB7 /* MainMenu.xib in Resources */,
+				9C4B1A3E1C1859830065503B /* Welcome.png in Resources */,
+				4F6946FE1C159932009D155A /* EHCustomAdditionViewController.xib in Resources */,
+				9CDEE5C41C0824E900E57368 /* EHTechnologyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31E44A1BFDBE6700907FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31E4551BFDBE6700907FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F31E4361BFDBE6600907FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F227B521C193BAE00BC0DF7 /* EHDateModel.swift in Sources */,
+				4F31E43E1BFDBE6600907FB7 /* AppDelegate.swift in Sources */,
+				9CDEE5C31C0824E900E57368 /* EHTechnologyViewController.swift in Sources */,
+				9CDEE5DA1C08266200E57368 /* Date.swift in Sources */,
+				9CD0C45E1C1FDD490049929D /* EHCandidateViewController.swift in Sources */,
+				4F31E4411BFDBE6600907FB7 /* EHire.xcdatamodeld in Sources */,
+				9C35A6381C0C09410069BFE0 /* EHCoreDataHelper.swift in Sources */,
+				9CB9E23C1C1999430032B5BF /* EHConstants.swift in Sources */,
+				9CDEE5DB1C08266200E57368 /* Technology+CoreDataProperties.swift in Sources */,
+				4F227B501C193B9C00BC0DF7 /* EHTechnologyModel.swift in Sources */,
+				4F6946FD1C159932009D155A /* EHCustomAdditionViewController.swift in Sources */,
+				9CDEE5DC1C08266200E57368 /* Technology.swift in Sources */,
+				9CDEE5D91C08266200E57368 /* Date+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31E4481BFDBE6700907FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F31E4511BFDBE6700907FB7 /* EHireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31E4531BFDBE6700907FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F31E45C1BFDBE6700907FB7 /* EHireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F31E44E1BFDBE6700907FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F31E4391BFDBE6600907FB7 /* EHire */;
+			targetProxy = 4F31E44D1BFDBE6700907FB7 /* PBXContainerItemProxy */;
+		};
+		4F31E4591BFDBE6700907FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F31E4391BFDBE6600907FB7 /* EHire */;
+			targetProxy = 4F31E4581BFDBE6700907FB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F31E4441BFDBE6600907FB7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F31E4451BFDBE6600907FB7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F31E45E1BFDBE6700907FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F31E45F1BFDBE6700907FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F31E4611BFDBE6700907FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exilant.EHire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F31E4621BFDBE6700907FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exilant.EHire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F31E4641BFDBE6700907FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exilant.EHireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EHire.app/Contents/MacOS/EHire";
+			};
+			name = Debug;
+		};
+		4F31E4651BFDBE6700907FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exilant.EHireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EHire.app/Contents/MacOS/EHire";
+			};
+			name = Release;
+		};
+		4F31E4671BFDBE6700907FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exilant.EHireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EHire;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4F31E4681BFDBE6700907FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exilant.EHireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EHire;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F31E4351BFDBE6600907FB7 /* Build configuration list for PBXProject "EHire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F31E45E1BFDBE6700907FB7 /* Debug */,
+				4F31E45F1BFDBE6700907FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F31E4601BFDBE6700907FB7 /* Build configuration list for PBXNativeTarget "EHire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F31E4611BFDBE6700907FB7 /* Debug */,
+				4F31E4621BFDBE6700907FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F31E4631BFDBE6700907FB7 /* Build configuration list for PBXNativeTarget "EHireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F31E4641BFDBE6700907FB7 /* Debug */,
+				4F31E4651BFDBE6700907FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F31E4661BFDBE6700907FB7 /* Build configuration list for PBXNativeTarget "EHireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F31E4671BFDBE6700907FB7 /* Debug */,
+				4F31E4681BFDBE6700907FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F31E43F1BFDBE6600907FB7 /* EHire.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F31E4401BFDBE6600907FB7 /* EHire.xcdatamodel */,
+			);
+			currentVersion = 4F31E4401BFDBE6600907FB7 /* EHire.xcdatamodel */;
+			path = EHire.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F31E4321BFDBE6600907FB7 /* Project object */;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Candidate" syncable="YES">
+        <attribute name="interViewDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="interViewTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requistion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="technologyName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Date" representedClassName=".Date" syncable="YES">
+        <attribute name="interviewDate" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Technology" representedClassName=".Technology" syncable="YES">
+        <attribute name="technologyId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="technologyName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="interviewDate" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Date" positionX="-54" positionY="9" width="128" height="58"/>
+        <element name="Technology" positionX="-342" positionY="-396" width="128" height="88"/>
+        <element name="Candidate" positionX="-198" positionY="-243" width="128" height="118"/>
+    </elements>
+</model>
