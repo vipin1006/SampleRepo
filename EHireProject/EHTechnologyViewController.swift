@@ -15,12 +15,16 @@ class EHTechnologyViewController: NSWindowController,NSOutlineViewDataSource,NSO
 
     var sourceListContent : [EHTechnologyModel] = []
 
+    let stringVlaue = "hello"
+    
     @IBOutlet weak var imageWelcome: NSImageView!
     @IBOutlet weak var outlineview: NSOutlineView!
     @IBOutlet weak var ehCustomAdditionParentView: NSView!
     
     override func windowDidLoad() {
         super.windowDidLoad()
+        print(stringVlaue)
+
     }
     
     override func windowWillLoad() {
